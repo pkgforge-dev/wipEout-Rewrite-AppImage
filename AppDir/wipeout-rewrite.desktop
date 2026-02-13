@@ -5,7 +5,6 @@ Exec=wipegame
 Icon=wipeout
 Name[en_US]=WipEout
 Name=WipEout
-Path=./AppDir/bin
 StartupNotify=false
 Terminal=false
 Type=Application
