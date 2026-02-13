@@ -15,7 +15,8 @@ get-debloated-pkgs --add-common --prefer-nano
 # Comment this out if you need an AUR package
 make-aur-package wipeout-rewrite-git
 mkdir -p ./AppDir/bin
-mv -v /opt/wipeout-rewrite/* ./AppDir/bin
+mv -v /opt/wipeout-rewrite/wipegame ./AppDir/bin
+mv -v /opt/wipeout-rewrite/wipeout/* ./AppDir/bin
 
 # If the application needs to be manually built that has to be done down here
 
