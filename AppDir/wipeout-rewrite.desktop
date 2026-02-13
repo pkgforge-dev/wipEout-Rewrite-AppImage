@@ -1,11 +1,11 @@
 [Desktop Entry]
 Categories=Game
 Comment[en_US]=A re-implementation of the 1995 PSX game WipEout
-Exec=/opt/wipeout-rewrite/wipegame
+Exec=wipegame
 Icon=wipeout
 Name[en_US]=WipEout
 Name=WipEout
-Path=/opt/wipeout-rewrite
+#Path=/opt/wipeout-rewrite
 StartupNotify=false
 Terminal=false
 Type=Application
