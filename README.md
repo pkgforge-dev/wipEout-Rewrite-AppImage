@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/wipEout-Rewrite-AppImage)](https://github.com/pkgforge-dev/wipEout-Rewrite-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/Link4Electronics/wipEout-Rewrite-AppImage/blob/main/AppDir/wipeout.png" width="128" />
 </p>
 
 
