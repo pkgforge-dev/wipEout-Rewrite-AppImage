@@ -11,7 +11,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-mv -v /opt/wipeout-rewrite/* ./AppDir/bin
 quick-sharun ./AppDir/bin/*
 
 # Additional changes can be done in between here
