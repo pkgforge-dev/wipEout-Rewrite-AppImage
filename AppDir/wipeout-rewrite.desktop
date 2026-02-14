@@ -4,4 +4,5 @@ Name=wipEout Rewrite
 Comment=A re-implementation of the 1995 PSX game WipEout
 Exec=wipegame
 Icon=wipeout
+Terminal=false
 Categories=Game;Racing;Action
