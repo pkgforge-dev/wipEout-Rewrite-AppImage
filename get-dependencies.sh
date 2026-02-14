@@ -35,5 +35,5 @@ cmake .. \
     -DPATH_USERDATA="$HOME/"
 make -j$(nproc)
 mv -v wipeout ../../AppDir/bin/wipegame
-wget https://phoboslab.org/files/wipeout-data-v01.zip -O wipeout-data.zip && bsdtar -xfv wipeout-data.zip && rm wipeout-data.zip
+wget https://phoboslab.org/files/wipeout-data-v01.zip -O wipeout-data.zip && bsdtar -xvf wipeout-data.zip && rm wipeout-data.zip
 mv -v wipeout ../../AppDir/bin/
