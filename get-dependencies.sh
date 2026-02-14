@@ -31,8 +31,8 @@ mkdir -p ./AppDir/bin
 cd ./wipEout-Rewrite
 mkdir -p build && cd build
 cmake .. \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DPATH_USERDATA="$HOME/"
+    -DCMAKE_BUILD_TYPE=Release
+#    -DPATH_USERDATA="$HOME/"
 make -j$(nproc)
 mv -v wipeout ../../AppDir/bin/wipegame
 wget https://phoboslab.org/files/wipeout-data-v01.zip -O wipeout-data.zip && bsdtar -xvf wipeout-data.zip && rm wipeout-data.zip
