@@ -16,7 +16,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Making nightly build of wipEout-Rewrite..."
+echo "Building wipEout-Rewrite..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/phoboslab/wipeout-rewrite"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
